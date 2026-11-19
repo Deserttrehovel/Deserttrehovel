@@ -1,33 +1,52 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Deserttrehovel — Java, C++, ASM, Bytecode. Building things. Taking them apart." />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header.svg">
+    <img src="./assets/header.svg" width="100%" alt="Deserttrehovel — Java, C++, ASM, Bytecode. Building things. Taking them apart." />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="#about">About</a> &nbsp; / &nbsp;
-  <a href="#toolbox">Toolbox</a> &nbsp; / &nbsp;
-  <a href="#under-the-hood">Under the hood</a>
+  <a href="#about"><b>About</b></a>
+  &nbsp;·&nbsp;
+  <a href="#toolbox"><b>Toolbox</b></a>
+  &nbsp;·&nbsp;
+  <a href="#under-the-hood"><b>Under the hood</b></a>
 </p>
 
-## About
+<br>
 
-I work with **Java, C++, ASM and bytecode**. I like writing code, taking programs apart, and understanding what actually happens underneath the source.
+## <sub>01</sub>&nbsp;&nbsp;About
 
-I've worked on **200+ projects** over time. That is my overall experience, not a count of public repositories on this account.
+I build software and reverse engineer the systems behind it.
 
-## Toolbox
+My work spans **Java, C++, assembly and bytecode**—from writing source code to tracing control flow, inspecting runtime behavior and understanding where the abstractions end.
 
-| Layer | What I work with |
+Across more than **200 projects**, my goal has stayed the same: make the unfamiliar understandable and the difficult feel precise.
+
+<br>
+
+## <sub>02</sub>&nbsp;&nbsp;Toolbox
+
+| | |
 | :--- | :--- |
-| **Source** | Java · C++ |
-| **Instructions** | ASM · Bytecode |
-| **Analysis** | Reverse engineering · Deobfuscation |
+| **SOURCE** | Java · C++ |
+| **LOW LEVEL** | ASM · Bytecode |
+| **ANALYSIS** | Reverse engineering · Deobfuscation |
+| **FOCUS** | Control flow · Runtime behavior · Optimization |
 
-## Under the hood
+<br>
 
-I'm interested in the gap between what source code says and what a program actually does: bytecode, control flow, runtime behavior, and the layers added by obfuscation.
+## <sub>03</sub>&nbsp;&nbsp;Under the hood
 
-Sometimes that means building something. Sometimes it means figuring out how something was built.
+I am interested in the gap between **what source code says** and **what a program actually does**.
 
----
+Sometimes that means building something. Sometimes it means taking it apart. Always, it means looking beneath the surface.
 
-<sub>Java · C++ · ASM · Bytecode</sub>
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:0d1117,100:0d1117&section=footer&text=JAVA%20%C2%B7%20C++%20%C2%B7%20ASM%20%C2%B7%20BYTECODE&fontSize=16&fontColor=79e4d5&animation=fadeIn">
+    <img alt="Java · C++ · ASM · Bytecode" src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:f6f8fa,100:f6f8fa&section=footer&text=JAVA%20%C2%B7%20C++%20%C2%B7%20ASM%20%C2%B7%20BYTECODE&fontSize=16&fontColor=0969da&animation=fadeIn" />
+  </picture>
+</p>
