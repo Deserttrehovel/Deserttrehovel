@@ -2,44 +2,68 @@
 <title id="title">Deserttrehovel — Java, C++, ASM, Bytecode</title>
 <desc id="desc">Dark editorial banner with cyan accents and an abstract instruction-flow diagram.</desc>
 
-<rect width="1280" height="380" rx="16" fill="#0d1117"/>
-<path d="M0 1H1280M0 379H1280" stroke="#30363d"/>
+<defs>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#79e4d5" stop-opacity=".14"/>
+    <stop offset=".55" stop-color="#79e4d5" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#79e4d5"/>
+    <stop offset="1" stop-color="#79e4d5" stop-opacity=".15"/>
+  </linearGradient>
+</defs>
 
-<g fill="none" stroke="#212b36" stroke-width="1">
-  <path d="M960 0V380M1040 0V380M1120 0V380M1200 0V380M880 0V380M800 0V380M800 60H1280M800 140H1280M800 220H1280M800 300H1280"/>
+<rect width="1280" height="380" rx="18" fill="#090d12"/>
+<rect x="1" y="1" width="1278" height="378" rx="17" fill="url(#glow)" stroke="#27313d"/>
+
+<g fill="none" stroke="#1a232d" stroke-width="1">
+  <path d="M760 0V380M840 0V380M920 0V380M1000 0V380M1080 0V380M1160 0V380M1240 0V380"/>
+  <path d="M760 76H1280M760 152H1280M760 228H1280M760 304H1280"/>
 </g>
 
-<rect x="54" y="52" width="28" height="4" fill="#79e4d5"/>
-<text x="96" y="61" font-family="Consolas,monospace" font-size="15" letter-spacing="3" fill="#a6b2c0">SOURCE / INSTRUCTIONS / RUNTIME</text>
+<circle cx="1018" cy="190" r="118" fill="#79e4d5" fill-opacity=".025" stroke="#79e4d5" stroke-opacity=".12"/>
+<circle cx="1018" cy="190" r="78" fill="#79e4d5" fill-opacity=".035" stroke="#79e4d5" stroke-opacity=".18"/>
 
-<text x="51" y="167" font-family="Arial,sans-serif" font-weight="700" font-size="76" letter-spacing="-3" fill="#f0f6fc">Deserttrehovel</text>
-<text x="56" y="215" font-family="Arial,sans-serif" font-size="24" fill="#b5c0cc">Building things. Taking them apart.</text>
+<rect x="54" y="54" width="30" height="4" rx="2" fill="#79e4d5"/>
+<text x="98" y="61" font-family="Consolas,'Courier New',monospace" font-size="14" letter-spacing="3" fill="#91a0af">SOURCE / INSTRUCTIONS / RUNTIME</text>
 
-<path d="M56 258H720" stroke="#303b47"/>
+<text x="51" y="169" font-family="Arial,sans-serif" font-weight="750" font-size="76" letter-spacing="-4" fill="#f3f7fb">Deserttrehovel</text>
+<text x="56" y="216" font-family="Arial,sans-serif" font-size="24" fill="#aebcca">Building things. Taking them apart.</text>
 
-<text x="56" y="301" font-family="Consolas,monospace" font-size="20" fill="#79e4d5">JAVA</text>
-<text x="143" y="301" font-family="Consolas,monospace" font-size="20" fill="#667384">/</text>
-<text x="178" y="301" font-family="Consolas,monospace" font-size="20" fill="#dbe5ef">C++</text>
-<text x="250" y="301" font-family="Consolas,monospace" font-size="20" fill="#667384">/</text>
-<text x="285" y="301" font-family="Consolas,monospace" font-size="20" fill="#dbe5ef">ASM</text>
-<text x="357" y="301" font-family="Consolas,monospace" font-size="20" fill="#667384">/</text>
-<text x="392" y="301" font-family="Consolas,monospace" font-size="20" fill="#dbe5ef">BYTECODE</text>
+<rect x="56" y="258" width="664" height="1" fill="url(#line)"/>
 
-<g fill="#111a24" stroke="#45586b" stroke-width="2">
-  <rect x="912" y="81" width="208" height="58" rx="8"/>
-  <rect x="875" y="173" width="130" height="58" rx="8"/>
-  <rect x="1045" y="173" width="130" height="58" rx="8"/>
-  <rect x="960" y="270" width="130" height="58" rx="8"/>
+<g font-family="Consolas,'Courier New',monospace" font-size="19" letter-spacing="1">
+  <text x="56" y="306" fill="#79e4d5">JAVA</text>
+  <text x="143" y="306" fill="#526171">/</text>
+  <text x="178" y="306" fill="#d9e3ed">C++</text>
+  <text x="250" y="306" fill="#526171">/</text>
+  <text x="285" y="306" fill="#d9e3ed">ASM</text>
+  <text x="357" y="306" fill="#526171">/</text>
+  <text x="392" y="306" fill="#d9e3ed">BYTECODE</text>
 </g>
 
-<g fill="none" stroke="#79e4d5" stroke-width="2">
-  <path d="M1016 139V155H940V173M1016 155H1110V173M940 231V250H1025V270M1110 231V250H1025"/>
+<g fill="#0d131a" stroke="#405162" stroke-width="2">
+  <rect x="890" y="78" width="256" height="64" rx="10"/>
+  <rect x="824" y="158" width="162" height="64" rx="10"/>
+  <rect x="1050" y="158" width="162" height="64" rx="10"/>
+  <rect x="937" y="264" width="162" height="64" rx="10"/>
 </g>
 
-<g font-family="Consolas,monospace" font-size="17" text-anchor="middle">
-  <text x="1016" y="117" fill="#79e4d5">instructions</text>
-  <text x="940" y="209" fill="#dbe5ef">inspect</text>
-  <text x="1110" y="209" fill="#dbe5ef">build</text>
-  <text x="1025" y="306" fill="#79e4d5">understand</text>
+<g fill="none" stroke="#79e4d5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M1018 142V150M1018 150H905V158M1018 150H1131V158"/>
+  <path d="M905 222V243H1018V264M1131 222V243H1018"/>
+</g>
+
+<g font-family="Consolas,'Courier New',monospace" font-size="16" text-anchor="middle">
+  <text x="1018" y="116" fill="#79e4d5">instructions</text>
+  <text x="905" y="196" fill="#d9e3ed">inspect</text>
+  <text x="1131" y="196" fill="#d9e3ed">build</text>
+  <text x="1018" y="302" fill="#79e4d5">understand</text>
+</g>
+
+<g fill="#79e4d5">
+  <circle cx="1018" cy="142" r="3"/>
+  <circle cx="905" cy="243" r="3"/>
+  <circle cx="1131" cy="243" r="3"/>
 </g>
 </svg>
